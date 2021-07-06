@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans HK", sans-serif;
+  line-height: 1.6;
+}
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 1.5rem;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.highlight {
+  color: red;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.picture {
+  flex-basis: 50%;
+}
+.about.text {
+  padding: 15px;
+  flex-basis: 50%;
+}
+.about .picture {
+  margin-right: 30px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  border-radius: 9px;
+}
+
+.intro,
+.card h2 {
+  text-align: center;
+}
+.card {
+  flex-basis: 33.33%;
+  background-color: whitesmoke;
+  border-radius: 9px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card div {
+  padding: 0 25px;
+}
+.card-group {
+  display: flex;
+  gap: 30px;
+  /* padding-left: 60px; */
+}
+.p1 {
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+.subscriber {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.pages {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px 0;
+}
+.fa-facebook-square {
+  color: rgba(0, 0, 255, 0.541);
+}
+.fa-youtube {
+  color: red;
+}
+.fa-twitter {
+  color: cyan;
+}
+.fa-star,
+.fa-star-half-alt {
+  color: goldenrod;
+}
+.contact-me {
+  text-align: center;
+}
+.Contact {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 40px;
+}
+.down {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
